@@ -1,0 +1,32 @@
+.date, .add {
+	margin: 5px 0;
+}
+tfoot tr td {
+	font-weight: bold;
+}
+tbody tr:hover {
+	background: darkgrey;
+	cursor: default;
+}
+td.price {
+	text-align: right;
+}
+td.change {
+	color: white;
+}
+tr:hover td.change.positive {
+	background-color: #00dd00;
+}
+td.change.positive {
+	background-color: #0f0;
+}
+tr:hover td.change.negitive {
+	background-color: #ee0000;
+}
+td.change.negitive {
+	background-color: #f00;
+}
+.updated {
+	text-align: center;
+	font-size: .75em;
+}
